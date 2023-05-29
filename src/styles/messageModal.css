@@ -1,0 +1,24 @@
+.btnMessage{
+    background: #ff5e24;
+    width: 40% !important;
+    height: 60px;
+    border-radius: 100px;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+}
+.btnWarning{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.btnMessageWarning{
+    background: #B0B0B0;
+    width: 40% !important;
+    height: 60px;
+    border-radius: 100px;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+}

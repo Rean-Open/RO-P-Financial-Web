@@ -1,0 +1,229 @@
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("./assets/fonts/Montserrat-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("./assets/fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("./assets/fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("./assets/fonts/Montserrat-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: url("./assets/fonts/Montserrat-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+
+* {
+  font-family: "Montserrat";
+}
+
+h6 {
+  font-family: 'Montserrat-Medium';
+}
+
+:root {
+  --primary-red: #FC1921;
+  --primary-black: #000000;
+  --secondary-medical-green: #03b3be;
+  --secondary-sky-blue: #88C0F0;
+  --secondary-plasma-gold: #FFA814;
+  --seoncdary-maroon: #851C1D;
+  --soft-white: #FCFCFA;
+  --off-white: #F1EFEA;
+  --warm-gray: #E2DFDA;
+}
+
+body{
+  background-color: #F5F5F5;
+}
+
+
+/* sidebar */
+
+.sidebar {
+  border-left: 2px solid #d9d9d9 !important;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  top: 80px;
+  transition: width 0.5s;
+  position: fixed;
+  height: 100%;
+  z-index: 1;
+}
+
+.logo-name-wrapper {
+  position: relative;
+  margin-bottom: 2.1rem;
+  display: flex;
+}
+.features-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 1.1rem;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.features-item-text {
+  transition: opacity 0.6s ease;
+  color:#000000;
+  opacity: 1;
+}
+.opacity {
+  opacity: 0;
+}
+
+.circle {
+  /* background-color: red; */
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  margin-right: -18px;
+}
+/* end sidebar */
+
+.third_desc {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.main-nav .nav-item,
+.nav-form .nav-item {
+  color: #000000;
+  padding: 4px 0px;
+}
+.main-nav a:hover,
+.nav-form a:hover {
+  text-decoration: none;
+}
+
+.main-nav .nav-item,
+.nav-form .nav-item {
+  color: gray;
+  padding: 4px 0px;
+}
+.main-nav .nav-item:hover {
+  /* color: #FC1921; */
+  color: #000000;
+}
+.navbar-nav .nav-item.active {
+  font-family: "Montserrat";
+  color: #000000;
+  font-weight: 700;
+}
+.line-height {
+  line-height: 24px;
+  height: 3em;
+}
+.MontserratReg16{
+  font-family: "Montserrat-Regular";
+  font-size: 16px !important;
+  font-weight: 400;
+}
+.coloHeader{
+  color: #000000 !important;
+}
+.colorNotf{
+  width: 10px;
+  height: 10px;
+  background-color: #FC1921;
+  border-radius: 100%;
+  margin-left: 1.1rem;
+  position: absolute;
+  margin-top: -1.2rem;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.app p {
+  padding: 10px 0;
+}
+.react-lock-screen__ui {
+  width: 300px;
+  position: fixed;
+  border: 2px solid #ff5e24;
+  background: #fff;
+  text-align: center;
+  padding: 16px;
+  border-radius: 4px;
+  top: calc(50% - 152px / 2);
+  left: calc(49% - 300px / 2);
+}
+
+button {
+  padding: 5px 15px;
+  border: 0;
+  text-transform: uppercase;
+  background: #ff5e24;
+  color: #fff;
+  margin-top: 15px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: pointer;
+}

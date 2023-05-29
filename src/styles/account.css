@@ -1,0 +1,10 @@
+
+.infoInput[disabled] {
+    height: 50px;
+    background-color: #f1efea;
+    border: none;
+}
+.infoLabel {
+    font-size: 14px;
+    font-weight: 700;
+}

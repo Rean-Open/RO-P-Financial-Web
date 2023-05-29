@@ -1,0 +1,39 @@
+.card1 {
+    width: 33.3%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background:none;
+    height: 120px;
+}
+
+.card-body {
+    border-radius: 5px;
+}
+
+.size24700 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0px !important;
+}
+
+.size16500 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0px !important
+}
+
+.size18700{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0px !important;
+}
+.size18400{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0px !important;
+}
+.titleDashboard18500{
+    font-weight: 500;
+    margin-bottom: 0px !important;
+}

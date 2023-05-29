@@ -1,0 +1,87 @@
+@import "../App.css";
+
+.sidebars {
+  position: sticky !important;
+  top: 0px;
+  z-index: 99;
+  box-shadow: 0px 3px 6px rgb(0 0 0 / 16%) !important;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  position: fixed !important;
+}
+
+.desktop_navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+.navigation_text {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+  opacity: 1;
+  transition: color 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.navigation_text_focus {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+}
+
+.navigation_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-left: 45px;
+}
+
+.navigation_line {
+  position: absolute;
+  width: 100%;
+  height: 8px;
+  background-color: var(--secondary-plasma-gold);
+  bottom: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.navigation_text:hover {
+  color: black;
+}
+
+.navigation_text:active {
+  color: black;
+}
+
+.dropdown-menu {
+  border-radius: 0.25rem !important;
+  width: 89% !important;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+  color: var(--bs-btn-active-color);
+  background-color: var(--bs-btn-active-bg);
+  border-color: #ffffff00;
+}
+.customMenu.show {
+  /* margin-left: -10px !important; */
+  margin-top: -20px !important;
+  display: block;
+}
+.btnNone{
+  background-color:transparent;
+  border: none
+}

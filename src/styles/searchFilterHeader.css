@@ -1,0 +1,70 @@
+.filter_button {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  height: 31px;
+  width: 100%;
+  background-color: white !important;
+  margin-top: 6px;
+  transition: all 0.2s;
+  justify-content: center;
+  display: flex;
+}
+
+.filter_button:hover {
+  border: 1px solid #ff5e24;
+}
+
+.filter_button:disabled {
+  border: 1px solid #ced4da;
+  color: #ced4da;
+}
+
+.filter-body {
+  width: 300px !important;
+  padding: 20px 20px;
+  margin-top: 51px;
+  overflow: unset;
+}
+
+.size12600 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.editColor {
+  color: #ff5e24;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.items-between {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.submission-body {
+  border-radius: 0 !important;
+  overflow: visible;
+  overflow: initial;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+.size12500 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

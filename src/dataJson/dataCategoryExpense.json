@@ -1,0 +1,17 @@
+[
+    {
+        "no": "1",
+        "name": "Food",
+        "discription": "Restaurant & Groceries"
+    },
+    {
+        "no": "2",
+        "name": "Health Care",
+        "discription": "Eye Care & Medical"
+    },
+    {
+        "no": "3",
+        "name": "Investment",
+        "discription": "N/A"
+    }
+]

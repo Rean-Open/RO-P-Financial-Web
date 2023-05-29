@@ -1,0 +1,94 @@
+@import "../App.css";
+
+.navbar {
+  height: 42px;
+  width: 100%;
+  /* background-color: #fff !important; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header_menu {
+  width: 80px;
+  height: 80px;
+  background-color: var(--secondary-plasma-gold);
+  color: black;
+  border: none;
+}
+
+.dropdown_menu {
+  width: 100%;
+  max-height: 100vh;
+  top: 42px;
+  background-color: #fff;
+  position: absolute;
+  transition: max-height 0.4s ease-in;
+  overflow: hidden;
+}
+
+.dropdown_menu_down {
+  width: 100%;
+  max-height: 0px;
+  top: 42px;
+  background-color: #fff;
+  position: absolute;
+  transition: max-height 0.4s ease-out;
+  overflow: hidden;
+}
+
+.body_navigation_menu {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.navigation_body_menu {
+  margin-bottom: 15px;
+}
+
+.navigation_text_menu {
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+  transition: color 0.2s ease-in-out;
+}
+
+.navigation_text_focus {
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+}
+
+.black_line_menu {
+  width: 100%;
+  height: 2rem;
+  background-color: var(--primary-red);
+  transform: rotate(-1.1deg);
+  position: absolute;
+  bottom: -24px;
+}
+
+.navbar-light .navbar-toggler {
+  color: black;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navigation_text_menu:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+button.navbar-toggler {
+  height: 34px;
+  width: 50px;
+}
+
+.navbar-toggler-icon {
+  height: 24px !important;
+  width: 24px !important;
+}

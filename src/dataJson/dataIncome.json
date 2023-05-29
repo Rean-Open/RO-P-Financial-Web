@@ -1,0 +1,39 @@
+[
+    {
+        "no": "1",
+        "creationTS": "2023-02-27T11:30:10.341Z",
+        "category": "Salary",
+        "amount": "100.00",
+        "discription": "Monthly Salary",
+        "payment": "ABA",
+        "reference": "N/A",
+        "remark": "N/A",
+        "balance": "100.00",
+        "tag": "Business"
+    },
+    {
+        "no": "2",
+        "creationTS": "2023-03-23T11:30:10.341Z",
+        "category": "Computer",
+        "amount": "700.00",
+        "discription": "Monthly Salary",
+        "payment": "Cash",
+        "reference": "N/A",
+        "remark": "N/A",
+        "balance": "100.00",
+        "tag": "Business"
+    },
+    {
+        "no": "3",
+        "creationTS": "2023-01-08T11:30:10.341Z",
+        "category": "Sell Car",
+        "amount": "12000.00",
+        "discription": "Monthly Salary",
+        "payment": "ABA",
+        "reference": "N/A",
+        "remark": "N/A",
+        "balance": "100.00",
+        "tag": "Business"
+    }
+
+]
